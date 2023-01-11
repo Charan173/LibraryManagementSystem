@@ -1,0 +1,44 @@
+.userlist h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#span {
+    font-size: 25px;
+}
+
+.user_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    padding: 30px;
+    width: 275px;
+    height: 300px;
+    /* background-color: aqua; */
+    border: 3px solid gray;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/* 
+.book:hover {
+    transform: scale(1.1);
+} */
+
+.user button {
+    color: red;
+    border: 2px solid red;
+    padding: 8px;
+    width: 90px;
+}
+
+.user button:hover {
+    transform: scale(1.08);
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.addUser {
+    padding-top: 150px;
+    text-align: center;
+    background-color: aquamarine;
+    width: 700px;
+    height: 64vh;
+    margin: 10px auto;
+}
+
+.addUser h1 {
+    margin: 0;
+    padding: 0;
+}

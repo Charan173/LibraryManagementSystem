@@ -1,0 +1,12 @@
+.addBook {
+    text-align: center;
+    background-color: aquamarine;
+    width: 700px;
+    height: 85.5vh;
+    margin: 10px auto;
+}
+
+.addBook h1 {
+    margin: 0;
+    padding: 0;
+}

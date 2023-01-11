@@ -1,0 +1,51 @@
+.booklist h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#span {
+    font-size: 25px;
+}
+
+.book_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    padding: 30px;
+    width: 1000px;
+    display: flex;
+    background-color: darkkhaki;
+    /* height: 360px; */
+    /* background-color: aqua; */
+    border: 3px solid gray;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+/* 
+.book:hover {
+    transform: scale(1.1);
+} */
+
+.book button {
+    color: red;
+    border: 2px solid red;
+    padding: 8px;
+    width: 90px;
+    margin-right: 15px;
+}
+
+.book button:hover {
+    transform: scale(1.08);
+    background-color: red;
+    color: white;
+}
+
+.info {
+    margin-left: 40px;
+}
