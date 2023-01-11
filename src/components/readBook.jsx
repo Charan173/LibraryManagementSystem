@@ -17,8 +17,8 @@ const ReadBook = () => {
             <div className="info">
                 <h2 className="title">{book.title}</h2>
                 <div className="description">
-                    <p>{book.shortDescription}</p>
-                    <p>{book.longDescription}</p>
+                    <p><span style={{ fontWeight:"bold" }}>Short Desc: </span>{book.shortDescription}</p>
+                    <p><span style={{ fontWeight:"bold" }}>Long Desc: </span>{book.longDescription}</p>
                 </div>
             </div>
         </div>
